@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Final Project</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_home">Home</string>
+    <string name="title_list">List</string>
+    <string name="title_sell">Sell</string>
+    <string name="title_user">User</string>
+    <string name="title_activity_user">User</string>
+    <string name="description">The TM roperty App connects you with a huge database of active properties from all over Bangladesh, allowing you to find apartments, plots, offices and shops – whether for sale or for rent – on the go.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="intro">Find Your Dream Place At The Best Price</string>
+    <string name="bio">The apartment has a floor space of 60 square meters </string>
+
+
+</resources>

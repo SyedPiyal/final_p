@@ -67,7 +67,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_margin="20dp"
-        app:cardCornerRadius="5dp"
+        app:cardCornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -95,7 +95,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="30dp"
                 android:layout_marginTop="30dp"
-                android:text="User Name"
+                android:text="User Details"
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="bold"
@@ -106,10 +106,10 @@
                 android:id="@+id/imageView26"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="162dp"
                 android:layout_marginTop="30dp"
+                android:layout_marginEnd="45dp"
                 android:src="@drawable/ic_arrow_r"
-                app:layout_constraintStart_toEndOf="@+id/textView19"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <ImageView
@@ -117,7 +117,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="30dp"
-                android:src="@drawable/ic_location"
+                android:src="@drawable/ic_eprofile"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView19" />
 
@@ -128,7 +128,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="30dp"
                 android:layout_marginTop="31dp"
-                android:text="User Address"
+                android:text="Edit Profile"
                 android:textColor="@color/black"
                 android:textSize="15sp"
                 android:textStyle="bold"
@@ -139,12 +139,10 @@
                 android:id="@+id/imageView25"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="148dp"
                 android:layout_marginTop="31dp"
-                android:layout_marginEnd="26dp"
+                android:layout_marginEnd="45dp"
                 android:src="@drawable/ic_arrow_r"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/textView18"
                 app:layout_constraintTop_toBottomOf="@+id/imageView26" />
 
             <ImageView
@@ -152,7 +150,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="30dp"
-                android:src="@drawable/ic_email"
+                android:src="@drawable/ic_help_center"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView20" />
 
@@ -162,10 +160,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="28dp"
                 android:layout_marginTop="36dp"
-                android:text="User Email"
-                android:textStyle="bold"
+                android:text="Help Center"
                 android:textColor="@color/black"
                 android:textSize="15sp"
+                android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/imageView21"
                 app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
@@ -173,10 +171,10 @@
                 android:id="@+id/imageView27"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="168dp"
                 android:layout_marginTop="34dp"
+                android:layout_marginEnd="45dp"
                 android:src="@drawable/ic_arrow_r"
-                app:layout_constraintStart_toEndOf="@+id/textView17"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView25" />
 
             <ImageView
@@ -184,7 +182,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="30dp"
-                android:src="@drawable/ic_eprofile"
+                android:src="@drawable/ic_aboutus"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView21" />
 
@@ -194,10 +192,10 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="28dp"
                 android:layout_marginTop="36dp"
-                android:text="Edit Profile"
-                android:textStyle="bold"
+                android:text="About Us"
                 android:textColor="@color/black"
                 android:textSize="15sp"
+                android:textStyle="bold"
                 app:layout_constraintStart_toEndOf="@+id/imageView22"
                 app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
@@ -205,10 +203,10 @@
                 android:id="@+id/imageView28"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="166dp"
                 android:layout_marginTop="26dp"
+                android:layout_marginEnd="45dp"
                 android:src="@drawable/ic_arrow_r"
-                app:layout_constraintStart_toEndOf="@+id/textView20"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/imageView27" />
 
 
@@ -217,7 +215,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="3dp"
                 android:layout_marginStart="20dp"
-                android:layout_marginTop="132dp"
+                android:layout_marginTop="48dp"
                 android:layout_marginEnd="20dp"
                 android:background="@color/white3"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -252,10 +250,10 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="168dp"
                 android:layout_marginTop="32dp"
+                android:layout_marginEnd="45dp"
                 android:src="@drawable/ic_arrow_r"
-                app:layout_constraintStart_toEndOf="@+id/textView21"
+                app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/view5" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>

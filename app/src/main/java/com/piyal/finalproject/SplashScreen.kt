@@ -7,7 +7,7 @@ import android.os.Handler
 import com.piyal.finalproject.databinding.ActivityMainBinding
 import com.piyal.finalproject.databinding.LogInBinding
 
-class MainActivity : AppCompatActivity() {
+class SplashScreen : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
     private lateinit var handler: Handler
@@ -20,10 +20,10 @@ class MainActivity : AppCompatActivity() {
         handler = Handler()
 
         handler.postDelayed({
-            val intent = Intent(this,LogIn::class.java)
+            val intent = Intent(this, LogIn::class.java)
             startActivity(intent)
             finish()
-        },3000)
+        }, 3000)
 
     }
 }
